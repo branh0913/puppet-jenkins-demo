@@ -1,0 +1,6 @@
+I, [2017-05-03T19:52:55.633013 #30736]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2017-05-03T19:52:55.663752 #30736]  INFO -- default-ubuntu-1604: UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+I, [2017-05-03T19:52:55.664022 #30736]  INFO -- default-ubuntu-1604: root                29428               29407               0                   19:47               ?                   00:00:00            /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=no -o PasswordAuthentication=yes -o UsePrivilegeSeparation=no -o PidFile=/tmp/sshd.pid
+I, [2017-05-03T19:52:55.961525 #30736]  INFO -- default-ubuntu-1604: d0943a2bc12de064593373aaf8afc6238cc9d01664e5c341f6d1b63ff6223016
+I, [2017-05-03T19:52:56.257484 #30736]  INFO -- default-ubuntu-1604: d0943a2bc12de064593373aaf8afc6238cc9d01664e5c341f6d1b63ff6223016
+I, [2017-05-03T19:52:56.271815 #30736]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.63s).

@@ -1,0 +1,9 @@
+---
+username: kitchen
+ssh_key: "/vagrant/.kitchen/docker_id_rsa"
+image_id: dcb41876cdae
+container_id: fcd3b23a13b96623f5d2dba6a401c71e2633f18e48ab0106fef7ad47d240e863
+hostname: localhost
+port: 32771
+last_action: converge
+last_error: 

@@ -1,373 +1,0 @@
-I, [2017-05-03T20:00:46.313707 #4632]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
-I, [2017-05-03T20:00:46.326959 #4632]  INFO -- default-ubuntu-1404: Preparing files for transfer
-I, [2017-05-03T20:00:46.327777 #4632]  INFO -- default-ubuntu-1404: Preparing modules
-I, [2017-05-03T20:00:46.333061 #4632]  INFO -- default-ubuntu-1404: Nothing to do for modules
-I, [2017-05-03T20:00:46.333425 #4632]  INFO -- default-ubuntu-1404: Preparing manifests
-I, [2017-05-03T20:00:46.340509 #4632]  INFO -- default-ubuntu-1404: Preparing files
-I, [2017-05-03T20:00:46.341906 #4632]  INFO -- default-ubuntu-1404: nothing to do for files
-I, [2017-05-03T20:00:46.346837 #4632]  INFO -- default-ubuntu-1404: Finished Preparing files for transfer
-I, [2017-05-03T20:00:46.348164 #4632]  INFO -- default-ubuntu-1404: Installing puppet on ubuntu-14.04
-I, [2017-05-03T20:00:46.348623 #4632]  INFO -- default-ubuntu-1404: Install busser on ubuntu
-I, [2017-05-03T20:00:48.980997 #4632]  INFO -- default-ubuntu-1404: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 41%Reading package lists... Done
-I, [2017-05-03T20:00:49.563901 #4632]  INFO -- default-ubuntu-1404: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-I, [2017-05-03T20:00:49.567257 #4632]  INFO -- default-ubuntu-1404: Reading state information... 0%Reading state information... 1%Reading state information... Done
-I, [2017-05-03T20:00:49.609455 #4632]  INFO -- default-ubuntu-1404: wget is already the newest version.
-I, [2017-05-03T20:00:49.610110 #4632]  INFO -- default-ubuntu-1404: wget set to manually installed.
-I, [2017-05-03T20:00:49.668313 #4632]  INFO -- default-ubuntu-1404: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-I, [2017-05-03T20:00:49.688968 #4632]  INFO -- default-ubuntu-1404: --2017-05-03 20:00:49--  https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
-I, [2017-05-03T20:00:49.780009 #4632]  INFO -- default-ubuntu-1404: Resolving apt.puppetlabs.com (apt.puppetlabs.com)... 54.192.48.236, 54.192.48.243, 54.192.48.213, ...
-I, [2017-05-03T20:00:49.816118 #4632]  INFO -- default-ubuntu-1404: Connecting to apt.puppetlabs.com (apt.puppetlabs.com)|54.192.48.236|:443... connected.
-I, [2017-05-03T20:00:49.917008 #4632]  INFO -- default-ubuntu-1404: HTTP request sent, awaiting response... 200 OK
-I, [2017-05-03T20:00:49.921591 #4632]  INFO -- default-ubuntu-1404: Length: 16944 (17K) [application/x-debian-package]
-I, [2017-05-03T20:00:49.927732 #4632]  INFO -- default-ubuntu-1404: Saving to: 'puppetlabs-release-trusty.deb'
-I, [2017-05-03T20:00:49.929153 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:00:49.933136 #4632]  INFO -- default-ubuntu-1404:  0% [                                       ] 0           --.-K/s              100%[======================================>] 16,944      --.-K/s   in 0s      
-I, [2017-05-03T20:00:49.936025 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:00:49.938552 #4632]  INFO -- default-ubuntu-1404: 2017-05-03 20:00:49 (64.9 MB/s) - 'puppetlabs-release-trusty.deb' saved [16944/16944]
-I, [2017-05-03T20:00:49.941467 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:00:50.041300 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package puppetlabs-release.
-I, [2017-05-03T20:00:50.215659 #4632]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16034 files and directories currently installed.)
-I, [2017-05-03T20:00:50.218789 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack puppetlabs-release-trusty.deb ...
-I, [2017-05-03T20:00:50.228040 #4632]  INFO -- default-ubuntu-1404: Unpacking puppetlabs-release (1.1-1) ...
-I, [2017-05-03T20:00:50.278118 #4632]  INFO -- default-ubuntu-1404: Setting up puppetlabs-release (1.1-1) ...
-I, [2017-05-03T20:00:59.330620 #4632]  INFO -- default-ubuntu-1404: 0% [Working]            Ign http://apt.puppetlabs.com trusty InRelease
-I, [2017-05-03T20:00:59.355903 #4632]  INFO -- default-ubuntu-1404:             10% [Waiting for headers]                         Get:1 http://apt.puppetlabs.com trusty Release.gpg [836 B]
-I, [2017-05-03T20:00:59.390228 #4632]  INFO -- default-ubuntu-1404:                          0% [Waiting for headers] [1 Release.gpg 0 B/836 B 0%]                                                     100% [Waiting for headers]                          Get:2 http://apt.puppetlabs.com trusty Release [54.2 kB]
-I, [2017-05-03T20:00:59.406587 #4632]  INFO -- default-ubuntu-1404:                           2% [Waiting for headers] [2 Release 0 B/54.2 kB 0%]                                                   Ign http://archive.ubuntu.com trusty InRelease
-I, [2017-05-03T20:01:00.389130 #4632]  INFO -- default-ubuntu-1404:                                                    84% [Waiting for headers] [2 Release 45.3 kB/54.2 kB 83%]                                                         100% [Waiting for headers]                          Get:3 http://archive.ubuntu.com trusty-updates InRelease [65.9 kB]
-I, [2017-05-03T20:01:00.390342 #4632]  INFO -- default-ubuntu-1404:                           Get:4 http://archive.ubuntu.com trusty-security InRelease [65.9 kB]
-I, [2017-05-03T20:01:00.419200 #4632]  INFO -- default-ubuntu-1404:                           100% [Working]              100% [2 Release gpgv 54.2 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          100% [3 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           Get:5 http://apt.puppetlabs.com trusty/main Sources [49.9 kB]
-I, [2017-05-03T20:01:01.691873 #4632]  INFO -- default-ubuntu-1404:                                                                            79% [3 InRelease gpgv 65.9 kB] [Waiting for headers] [5 Sources 0 B/49.9 kB 0%]                                                                               100% [3 InRelease gpgv 65.9 kB] [Waiting for headers]                                                     Hit http://archive.ubuntu.com trusty Release.gpg
-I, [2017-05-03T20:01:01.716183 #4632]  INFO -- default-ubuntu-1404:                                                      100% [Working]              100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           100% [5 Sources 0 B] [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting                                                                                100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           Get:6 http://apt.puppetlabs.com trusty/dependencies Sources [2157 B]
-I, [2017-05-03T20:01:01.740917 #4632]  INFO -- default-ubuntu-1404:                                                                            100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [6 Sources 993 B/2157 B 4                                                                               100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           Get:7 http://apt.puppetlabs.com trusty/main amd64 Packages [68.8 kB]
-I, [2017-05-03T20:01:01.777623 #4632]  INFO -- default-ubuntu-1404:                                                                            78% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [7 Packages 2450 B/68.8 kB                                                                               100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           100% [7 Packages 68.8 kB] [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Wai                                                                               100% [4 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                           Get:8 http://archive.ubuntu.com trusty-updates/main Sources [491 kB]
-I, [2017-05-03T20:01:01.782279 #4632]  INFO -- default-ubuntu-1404:                                                                            39% [4 InRelease gpgv 65.9 kB] [8 Sources 1130 B/491 kB 0%] [Waiting for header                                                                               Get:9 http://apt.puppetlabs.com trusty/dependencies amd64 Packages [1180 B]
-I, [2017-05-03T20:01:02.634207 #4632]  INFO -- default-ubuntu-1404: 40% [4 InRelease gpgv 65.9 kB] [8 Sources 14.3 kB/491 kB 3%] [9 Packages 993 B/                                                                               40% [4 InRelease gpgv 65.9 kB] [8 Sources 14.3 kB/491 kB 3%]                                                            40% [9 Packages 1180 B] [4 InRelease gpgv 65.9 kB] [8 Sources 14.3 kB/491 kB 3%                                                                               40% [4 InRelease gpgv 65.9 kB] [8 Sources 14.3 kB/491 kB 3%]                                                            67% [8 Sources 229 kB/491 kB 47%]                                 100% [Working]              100% [8 Sources 491 kB]                       Get:10 http://archive.ubuntu.com trusty-updates/restricted Sources [6467 B]
-I, [2017-05-03T20:01:02.728659 #4632]  INFO -- default-ubuntu-1404: 100% [8 Sources 491 kB]                       Get:11 http://archive.ubuntu.com trusty-updates/universe Sources [226 kB]
-I, [2017-05-03T20:01:03.088952 #4632]  INFO -- default-ubuntu-1404:                        80% [8 Sources 491 kB] [11 Sources 24.1 kB/226 kB 11%]                                                      84% [11 Sources 63.0 kB/226 kB 28%]                                   84% [10 Sources 6467 B] [11 Sources 63.0 kB/226 kB 28%]                                                       84% [11 Sources 63.0 kB/226 kB 28%]                                   100% [Working]              100% [11 Sources 226 kB]                        100% [Waiting for headers]                          Get:12 http://archive.ubuntu.com trusty-updates/main amd64 Packages [1226 kB]
-I, [2017-05-03T20:01:04.922836 #4632]  INFO -- default-ubuntu-1404:                           46% [12 Packages 4048 B/1226 kB 0%]                                   63% [12 Packages 388 kB/1226 kB 32%]79% [12 Packages 753 kB/1226 kB 61%]                                    94% [12 Packages 1089 kB/1226 kB 89%]                                     100% [Working]              100% [12 Packages 1226 kB]                          Get:13 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [21.2 kB]
-I, [2017-05-03T20:01:05.015704 #4632]  INFO -- default-ubuntu-1404:                           99% [12 Packages 1226 kB] [13 Packages 8432 B/21.2 kB 40%]                                                          100% [12 Packages 1226 kB]                          Get:14 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [524 kB]
-I, [2017-05-03T20:01:05.800850 #4632]  INFO -- default-ubuntu-1404:                           81% [12 Packages 1226 kB] [14 Packages 0 B/524 kB 0%]                                                     90% [14 Packages 257 kB/524 kB 49%]                                 415 kB/s 0s90% [13 Packages 21.2 kB] [14 Packages 257 kB/524 kB 49%]           415 kB/s 0s90% [14 Packages 257 kB/524 kB 49%]                                 415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [14 Packages 524 kB]                                           415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty Release
-I, [2017-05-03T20:01:05.884946 #4632]  INFO -- default-ubuntu-1404: 100% [14 Packages 524 kB] [Waiting for headers]                     415 kB/s 0s                                                                               100% [14 Packages 524 kB] [Release gpgv 58.5 kB] [Waiting for headers]                                                                      100% [14 Packages 524 kB] [Waiting for headers]                     415 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/main Sources [164 kB]
-I, [2017-05-03T20:01:06.164818 #4632]  INFO -- default-ubuntu-1404: 95% [14 Packages 524 kB] [15 Sources 4050 B/164 kB 2%]              415 kB/s 0s97% [15 Sources 63.7 kB/164 kB 39%]                                 415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [15 Sources 164 kB]                                            415 kB/s 0s100% [Waiting for headers]                                          415 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/restricted Sources [5066 B]
-I, [2017-05-03T20:01:06.337613 #4632]  INFO -- default-ubuntu-1404: 100% [Connecting to archive.ubuntu.com (91.189.88.162)]             415 kB/s 0s                                                                               100% [16 Sources 5066 B] [Connecting to archive.ubuntu.com (91.189.88.162)]                                                                           100% [Connecting to archive.ubuntu.com (91.189.88.162)]             415 kB/s 0s                                                                               Get:17 http://archive.ubuntu.com trusty-security/universe Sources [62.6 kB]
-I, [2017-05-03T20:01:06.622324 #4632]  INFO -- default-ubuntu-1404: 98% [17 Sources 2552 B/62.6 kB 4%]                                  415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [17 Sources 62.6 kB]                                           415 kB/s 0s100% [Waiting for headers]                                          415 kB/s 0s                                                                               Get:18 http://archive.ubuntu.com trusty-security/main amd64 Packages [758 kB]
-I, [2017-05-03T20:01:07.670781 #4632]  INFO -- default-ubuntu-1404: 81% [18 Packages 25.9 kB/758 kB 3%]                                 415 kB/s 1s90% [18 Packages 394 kB/758 kB 52%]                                 415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [18 Packages 758 kB]                                           415 kB/s 0s                                                                               Get:19 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [17.8 kB]
-I, [2017-05-03T20:01:07.764902 #4632]  INFO -- default-ubuntu-1404: 100% [18 Packages 758 kB] [19 Packages 1132 B/17.8 kB 6%]           415 kB/s 0s100% [18 Packages 758 kB] [Waiting for headers]                     415 kB/s 0s100% [Waiting for headers]                                          415 kB/s 0s100% [19 Packages 17.8 kB] [Waiting for headers]                    415 kB/s 0s100% [Waiting for headers]                                          415 kB/s 0s                                                                               Get:20 http://archive.ubuntu.com trusty-security/universe amd64 Packages [203 kB]
-I, [2017-05-03T20:01:08.137021 #4632]  INFO -- default-ubuntu-1404: 95% [20 Packages 0 B/203 kB 0%]                                     415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [20 Packages 203 kB]                                           415 kB/s 0s100% [Waiting for headers]                                          415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/main Sources
-I, [2017-05-03T20:01:08.210299 #4632]  INFO -- default-ubuntu-1404: 100% [Waiting for headers]                                          415 kB/s 0s100% [Sources 0 B] [Waiting for headers]                            415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/restricted Sources
-I, [2017-05-03T20:01:08.346491 #4632]  INFO -- default-ubuntu-1404: 100% [Sources 1335 kB] [Waiting for headers]                        415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/universe Sources
-I, [2017-05-03T20:01:08.398606 #4632]  INFO -- default-ubuntu-1404: 100% [Sources 1335 kB] [Waiting for headers]                        415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/main amd64 Packages
-I, [2017-05-03T20:01:08.464847 #4632]  INFO -- default-ubuntu-1404: 100% [Sources 1335 kB] [Waiting for headers]                        415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
-I, [2017-05-03T20:01:08.558793 #4632]  INFO -- default-ubuntu-1404: 100% [Sources 1335 kB] [Waiting for headers]                        415 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/universe amd64 Packages
-I, [2017-05-03T20:01:09.930509 #4632]  INFO -- default-ubuntu-1404: 100% [Sources 1335 kB]                                              415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [Sources 0 B]                                                  415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [Sources 0 B]                                                  415 kB/s 0s100% [Sources 7926 kB]                                              415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [Packages 0 B]                                                 415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [Packages 0 B]                                                 415 kB/s 0s100% [Working]                                                      415 kB/s 0s100% [Packages 0 B]                                                 415 kB/s 0s100% [Packages 7589 kB]                                             415 kB/s 0s100% [Working]                                                      415 kB/s 0s                                                                               Fetched 4013 kB in 10s (374 kB/s)
-I, [2017-05-03T20:01:11.877006 #4632]  INFO -- default-ubuntu-1404: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 14%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... Done
-I, [2017-05-03T20:01:14.277220 #4632]  INFO -- default-ubuntu-1404: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 14%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... Done
-I, [2017-05-03T20:01:14.822255 #4632]  INFO -- default-ubuntu-1404: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-I, [2017-05-03T20:01:14.823729 #4632]  INFO -- default-ubuntu-1404: Reading state information... 0%Reading state information... 1%Reading state information... Done
-I, [2017-05-03T20:01:14.907739 #4632]  INFO -- default-ubuntu-1404: The following extra packages will be installed:
-I, [2017-05-03T20:01:14.908500 #4632]  INFO -- default-ubuntu-1404:   dmidecode libpci3 libruby1.9.1 libyaml-0-2 pciutils ruby ruby1.9.1 virt-what
-I, [2017-05-03T20:01:14.909856 #4632]  INFO -- default-ubuntu-1404: Suggested packages:
-I, [2017-05-03T20:01:14.910991 #4632]  INFO -- default-ubuntu-1404:   ri ruby-dev ruby1.9.1-examples ri1.9.1 graphviz ruby1.9.1-dev ruby-switch
-I, [2017-05-03T20:01:14.913200 #4632]  INFO -- default-ubuntu-1404: The following NEW packages will be installed:
-I, [2017-05-03T20:01:14.914011 #4632]  INFO -- default-ubuntu-1404:   dmidecode facter libpci3 libruby1.9.1 libyaml-0-2 pciutils ruby ruby1.9.1
-I, [2017-05-03T20:01:14.914976 #4632]  INFO -- default-ubuntu-1404:   virt-what
-I, [2017-05-03T20:01:14.918906 #4632]  INFO -- default-ubuntu-1404: 0 upgraded, 9 newly installed, 0 to remove and 0 not upgraded.
-I, [2017-05-03T20:01:15.599144 #4632]  INFO -- default-ubuntu-1404: Need to get 3175 kB of archives.
-I, [2017-05-03T20:01:15.600523 #4632]  INFO -- default-ubuntu-1404: After this operation, 14.8 MB of additional disk space will be used.
-I, [2017-05-03T20:01:16.535682 #4632]  INFO -- default-ubuntu-1404: 0% [Working]            Get:1 http://apt.puppetlabs.com/ trusty/main facter all 2.4.6-1puppetlabs1 [73.3 kB]
-I, [2017-05-03T20:01:16.664076 #4632]  INFO -- default-ubuntu-1404:             0% [Connecting to archive.ubuntu.com (91.189.88.162)] [1 facter 0 B/73.3 kB 0%]                                                                               2% [Connecting to archive.ubuntu.com (91.189.88.162)]                                                     Get:2 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libpci3 amd64 1:3.2.1-1ubuntu5.1 [26.3 kB]
-I, [2017-05-03T20:01:16.847033 #4632]  INFO -- default-ubuntu-1404:                                                      2% [2 libpci3 0 B/26.3 kB 0%]                             3% [Working]            Get:3 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libyaml-0-2 amd64 0.1.4-3ubuntu3.1 [48.1 kB]
-I, [2017-05-03T20:01:17.017792 #4632]  INFO -- default-ubuntu-1404:             3% [3 libyaml-0-2 0 B/48.1 kB 0%]                                 5% [Working]            Get:4 http://archive.ubuntu.com/ubuntu/ trusty/main dmidecode amd64 2.12-2 [45.9 kB]
-I, [2017-05-03T20:01:17.119059 #4632]  INFO -- default-ubuntu-1404:             5% [4 dmidecode 0 B/45.9 kB 0%]                               6% [Working]            Get:5 http://archive.ubuntu.com/ubuntu/ trusty-updates/main pciutils amd64 1:3.2.1-1ubuntu5.1 [282 kB]
-I, [2017-05-03T20:01:17.560507 #4632]  INFO -- default-ubuntu-1404:             6% [5 pciutils 0 B/282 kB 0%]                             15% [Working]             Get:6 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libruby1.9.1 amd64 1.9.3.484-2ubuntu1.2 [2645 kB]
-I, [2017-05-03T20:01:21.247848 #4632]  INFO -- default-ubuntu-1404:              15% [6 libruby1.9.1 0 B/2645 kB 0%]                                   25% [6 libruby1.9.1 324 kB/2645 kB 12%]37% [6 libruby1.9.1 709 kB/2645 kB 27%]                                       50% [6 libruby1.9.1 1098 kB/2645 kB 41%]61% [6 libruby1.9.1 1457 kB/2645 kB 55%]73% [6 libruby1.9.1 1841 kB/2645 kB 70%]85% [6 libruby1.9.1 2216 kB/2645 kB 84%]96% [6 libruby1.9.1 2584 kB/2645 kB 98%]                                        98% [Working]             Get:7 http://archive.ubuntu.com/ubuntu/ trusty-updates/main ruby1.9.1 amd64 1.9.3.484-2ubuntu1.2 [35.6 kB]
-I, [2017-05-03T20:01:21.349233 #4632]  INFO -- default-ubuntu-1404:              99% [7 ruby1.9.1 7019 B/35.6 kB 20%]                                    99% [Working]             Get:8 http://archive.ubuntu.com/ubuntu/ trusty/main ruby all 1:1.9.3.4 [5334 B]
-I, [2017-05-03T20:01:21.442451 #4632]  INFO -- default-ubuntu-1404:              99% [8 ruby 0 B/5334 B 0%]                          100% [Working]              Get:9 http://archive.ubuntu.com/ubuntu/ trusty/universe virt-what amd64 1.13-1 [13.6 kB]
-I, [2017-05-03T20:01:21.451682 #4632]  INFO -- default-ubuntu-1404:               100% [9 virt-what 0 B/13.6 kB 0%]                                 100% [Working]              Fetched 3175 kB in 4s (637 kB/s)
-I, [2017-05-03T20:01:22.427180 #4632]  INFO -- default-ubuntu-1404: perl: warning: Setting locale failed.
-I, [2017-05-03T20:01:22.428006 #4632]  INFO -- default-ubuntu-1404: perl: warning: Please check that your locale settings:
-I, [2017-05-03T20:01:22.428648 #4632]  INFO -- default-ubuntu-1404: 	LANGUAGE = (unset),
-I, [2017-05-03T20:01:22.429556 #4632]  INFO -- default-ubuntu-1404: 	LC_ALL = (unset),
-I, [2017-05-03T20:01:22.430443 #4632]  INFO -- default-ubuntu-1404: 	LANG = "en_US.UTF-8"
-I, [2017-05-03T20:01:22.431307 #4632]  INFO -- default-ubuntu-1404:     are supported and installed on your system.
-I, [2017-05-03T20:01:22.431862 #4632]  INFO -- default-ubuntu-1404: perl: warning: Falling back to the standard locale ("C").
-I, [2017-05-03T20:01:22.510185 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_CTYPE to default locale: No such file or directory
-I, [2017-05-03T20:01:22.511248 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_MESSAGES to default locale: No such file or directory
-I, [2017-05-03T20:01:22.512221 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_ALL to default locale: No such file or directory
-I, [2017-05-03T20:01:29.366803 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libpci3:amd64.
-I, [2017-05-03T20:01:29.378416 #4632]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16041 files and directories currently installed.)
-I, [2017-05-03T20:01:29.379719 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libpci3_1%3a3.2.1-1ubuntu5.1_amd64.deb ...
-I, [2017-05-03T20:01:29.384499 #4632]  INFO -- default-ubuntu-1404: Unpacking libpci3:amd64 (1:3.2.1-1ubuntu5.1) ...
-I, [2017-05-03T20:01:29.407986 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libyaml-0-2:amd64.
-I, [2017-05-03T20:01:29.409824 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libyaml-0-2_0.1.4-3ubuntu3.1_amd64.deb ...
-I, [2017-05-03T20:01:29.413041 #4632]  INFO -- default-ubuntu-1404: Unpacking libyaml-0-2:amd64 (0.1.4-3ubuntu3.1) ...
-I, [2017-05-03T20:01:29.436073 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package dmidecode.
-I, [2017-05-03T20:01:29.438576 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../dmidecode_2.12-2_amd64.deb ...
-I, [2017-05-03T20:01:29.441923 #4632]  INFO -- default-ubuntu-1404: Unpacking dmidecode (2.12-2) ...
-I, [2017-05-03T20:01:29.470597 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package pciutils.
-I, [2017-05-03T20:01:29.472533 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../pciutils_1%3a3.2.1-1ubuntu5.1_amd64.deb ...
-I, [2017-05-03T20:01:29.477691 #4632]  INFO -- default-ubuntu-1404: Unpacking pciutils (1:3.2.1-1ubuntu5.1) ...
-I, [2017-05-03T20:01:29.552879 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libruby1.9.1.
-I, [2017-05-03T20:01:29.554666 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libruby1.9.1_1.9.3.484-2ubuntu1.2_amd64.deb ...
-I, [2017-05-03T20:01:29.557467 #4632]  INFO -- default-ubuntu-1404: Unpacking libruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
-I, [2017-05-03T20:01:29.966303 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package ruby1.9.1.
-I, [2017-05-03T20:01:29.968268 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../ruby1.9.1_1.9.3.484-2ubuntu1.2_amd64.deb ...
-I, [2017-05-03T20:01:29.971810 #4632]  INFO -- default-ubuntu-1404: Unpacking ruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
-I, [2017-05-03T20:01:29.998314 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package ruby.
-I, [2017-05-03T20:01:30.000568 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../ruby_1%3a1.9.3.4_all.deb ...
-I, [2017-05-03T20:01:30.003294 #4632]  INFO -- default-ubuntu-1404: Unpacking ruby (1:1.9.3.4) ...
-I, [2017-05-03T20:01:30.022566 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package virt-what.
-I, [2017-05-03T20:01:30.024417 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../virt-what_1.13-1_amd64.deb ...
-I, [2017-05-03T20:01:30.027506 #4632]  INFO -- default-ubuntu-1404: Unpacking virt-what (1.13-1) ...
-I, [2017-05-03T20:01:30.045980 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package facter.
-I, [2017-05-03T20:01:30.048786 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../facter_2.4.6-1puppetlabs1_all.deb ...
-I, [2017-05-03T20:01:30.052851 #4632]  INFO -- default-ubuntu-1404: Unpacking facter (2.4.6-1puppetlabs1) ...
-I, [2017-05-03T20:01:30.572024 #4632]  INFO -- default-ubuntu-1404: Setting up libpci3:amd64 (1:3.2.1-1ubuntu5.1) ...
-I, [2017-05-03T20:01:30.586773 #4632]  INFO -- default-ubuntu-1404: Setting up libyaml-0-2:amd64 (0.1.4-3ubuntu3.1) ...
-I, [2017-05-03T20:01:30.595569 #4632]  INFO -- default-ubuntu-1404: Setting up dmidecode (2.12-2) ...
-I, [2017-05-03T20:01:30.601349 #4632]  INFO -- default-ubuntu-1404: Setting up pciutils (1:3.2.1-1ubuntu5.1) ...
-I, [2017-05-03T20:01:30.610273 #4632]  INFO -- default-ubuntu-1404: Setting up virt-what (1.13-1) ...
-I, [2017-05-03T20:01:30.617064 #4632]  INFO -- default-ubuntu-1404: Setting up ruby (1:1.9.3.4) ...
-I, [2017-05-03T20:01:30.623717 #4632]  INFO -- default-ubuntu-1404: Setting up facter (2.4.6-1puppetlabs1) ...
-I, [2017-05-03T20:01:30.630603 #4632]  INFO -- default-ubuntu-1404: Setting up ruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
-I, [2017-05-03T20:01:30.638540 #4632]  INFO -- default-ubuntu-1404: Setting up libruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
-I, [2017-05-03T20:01:30.654614 #4632]  INFO -- default-ubuntu-1404: Processing triggers for libc-bin (2.19-0ubuntu6.11) ...
-I, [2017-05-03T20:01:33.139074 #4632]  INFO -- default-ubuntu-1404: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 13%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... Done
-I, [2017-05-03T20:01:33.689858 #4632]  INFO -- default-ubuntu-1404: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-I, [2017-05-03T20:01:33.691158 #4632]  INFO -- default-ubuntu-1404: Reading state information... 0%Reading state information... 1%Reading state information... Done
-I, [2017-05-03T20:01:33.777399 #4632]  INFO -- default-ubuntu-1404: The following extra packages will be installed:
-I, [2017-05-03T20:01:33.778196 #4632]  INFO -- default-ubuntu-1404:   augeas-lenses debconf-utils hiera libaugeas-ruby libaugeas0 libxml2
-I, [2017-05-03T20:01:33.778658 #4632]  INFO -- default-ubuntu-1404:   ruby-augeas ruby-json ruby-shadow sgml-base xml-core
-I, [2017-05-03T20:01:33.779769 #4632]  INFO -- default-ubuntu-1404: Suggested packages:
-I, [2017-05-03T20:01:33.780733 #4632]  INFO -- default-ubuntu-1404:   augeas-doc augeas-tools ruby-selinux libselinux-ruby1.8 librrd-ruby1.9.1
-I, [2017-05-03T20:01:33.781657 #4632]  INFO -- default-ubuntu-1404:   librrd-ruby1.8 sgml-base-doc debhelper
-I, [2017-05-03T20:01:33.784232 #4632]  INFO -- default-ubuntu-1404: The following NEW packages will be installed:
-I, [2017-05-03T20:01:33.785044 #4632]  INFO -- default-ubuntu-1404:   augeas-lenses debconf-utils hiera libaugeas-ruby libaugeas0 libxml2
-I, [2017-05-03T20:01:33.785715 #4632]  INFO -- default-ubuntu-1404:   puppet-common ruby-augeas ruby-json ruby-shadow sgml-base xml-core
-I, [2017-05-03T20:01:33.790232 #4632]  INFO -- default-ubuntu-1404: 0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
-I, [2017-05-03T20:01:34.411062 #4632]  INFO -- default-ubuntu-1404: Need to get 2386 kB of archives.
-I, [2017-05-03T20:01:34.412078 #4632]  INFO -- default-ubuntu-1404: After this operation, 12.7 MB of additional disk space will be used.
-I, [2017-05-03T20:01:35.334154 #4632]  INFO -- default-ubuntu-1404: 0% [Working]            Get:1 http://apt.puppetlabs.com/ trusty/main hiera all 1.3.4-1puppetlabs1 [12.0 kB]
-I, [2017-05-03T20:01:35.360851 #4632]  INFO -- default-ubuntu-1404:             0% [Connecting to archive.ubuntu.com (91.189.88.161)] [1 hiera 0 B/12.0 kB 0%]                                                                              1% [Connecting to archive.ubuntu.com (91.189.88.161)]                                                     Get:2 http://apt.puppetlabs.com/ trusty/main puppet-common all 3.8.7-1puppetlabs1 [1269 kB]
-I, [2017-05-03T20:01:35.494808 #4632]  INFO -- default-ubuntu-1404:                                                      1% [Connecting to archive.ubuntu.com (91.189.88.161)] [2 puppet-common 0 B/1269                                                                               Get:3 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libxml2 amd64 2.9.1+dfsg1-3ubuntu4.9 [573 kB]
-I, [2017-05-03T20:01:36.834164 #4632]  INFO -- default-ubuntu-1404:                                                                                15% [3 libxml2 14.3 kB/573 kB 2%] [2 puppet-common 339 kB/1269 kB 27%]                                                                      57% [3 libxml2 75.6 kB/573 kB 13%]                                  66% [3 libxml2 289 kB/573 kB 50%]77% [3 libxml2 566 kB/573 kB 99%]                                 78% [Working]             Get:4 http://archive.ubuntu.com/ubuntu/ trusty/main sgml-base all 1.26+nmu4ubuntu1 [12.5 kB]
-I, [2017-05-03T20:01:36.932272 #4632]  INFO -- default-ubuntu-1404:              78% [4 sgml-base 0 B/12.5 kB 0%]                                78% [Working]             Get:5 http://archive.ubuntu.com/ubuntu/ trusty/main xml-core all 0.13+nmu2 [23.3 kB]
-I, [2017-05-03T20:01:37.035031 #4632]  INFO -- default-ubuntu-1404:              78% [5 xml-core 0 B/23.3 kB 0%]                               79% [Working]             Get:6 http://archive.ubuntu.com/ubuntu/ trusty-updates/main augeas-lenses all 1.2.0-0ubuntu1.2 [229 kB]
-I, [2017-05-03T20:01:37.488028 #4632]  INFO -- default-ubuntu-1404:              79% [6 augeas-lenses 0 B/229 kB 0%]                                   89% [Working]             Get:7 http://archive.ubuntu.com/ubuntu/ trusty/main debconf-utils all 1.5.51ubuntu2 [57.4 kB]
-I, [2017-05-03T20:01:37.590266 #4632]  INFO -- default-ubuntu-1404:              89% [7 debconf-utils 0 B/57.4 kB 0%]                                    91% [Working]             Get:8 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libaugeas0 amd64 1.2.0-0ubuntu1.2 [135 kB]
-I, [2017-05-03T20:01:37.859695 #4632]  INFO -- default-ubuntu-1404:              91% [8 libaugeas0 0 B/135 kB 0%]                                97% [Working]             Get:9 http://archive.ubuntu.com/ubuntu/ trusty/main ruby-augeas amd64 0.5.0-2 [13.2 kB]
-I, [2017-05-03T20:01:38.047807 #4632]  INFO -- default-ubuntu-1404:              97% [9 ruby-augeas 0 B/13.2 kB 0%]                                  97% [Working]             Get:10 http://archive.ubuntu.com/ubuntu/ trusty/universe libaugeas-ruby all 0.5.0-2 [1394 B]
-I, [2017-05-03T20:01:38.150923 #4632]  INFO -- default-ubuntu-1404:              97% [10 libaugeas-ruby 0 B/1394 B 0%]                                     97% [Working]             Get:11 http://archive.ubuntu.com/ubuntu/ trusty/main ruby-shadow amd64 2.2.0-1 [11.2 kB]
-I, [2017-05-03T20:01:38.253696 #4632]  INFO -- default-ubuntu-1404:              97% [11 ruby-shadow 0 B/11.2 kB 0%]                                   98% [Working]             Get:12 http://archive.ubuntu.com/ubuntu/ trusty/main ruby-json amd64 1.8.0-1build1 [49.0 kB]
-I, [2017-05-03T20:01:38.264497 #4632]  INFO -- default-ubuntu-1404:              98% [12 ruby-json 0 B/49.0 kB 0%]                                 100% [Working]              Fetched 2386 kB in 2s (799 kB/s)
-I, [2017-05-03T20:01:39.191766 #4632]  INFO -- default-ubuntu-1404: perl: warning: Setting locale failed.
-I, [2017-05-03T20:01:39.192506 #4632]  INFO -- default-ubuntu-1404: perl: warning: Please check that your locale settings:
-I, [2017-05-03T20:01:39.193779 #4632]  INFO -- default-ubuntu-1404: 	LANGUAGE = (unset),
-I, [2017-05-03T20:01:39.194809 #4632]  INFO -- default-ubuntu-1404: 	LC_ALL = (unset),
-I, [2017-05-03T20:01:39.195943 #4632]  INFO -- default-ubuntu-1404: 	LANG = "en_US.UTF-8"
-I, [2017-05-03T20:01:39.199376 #4632]  INFO -- default-ubuntu-1404:     are supported and installed on your system.
-I, [2017-05-03T20:01:39.199768 #4632]  INFO -- default-ubuntu-1404: perl: warning: Falling back to the standard locale ("C").
-I, [2017-05-03T20:01:39.225670 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_CTYPE to default locale: No such file or directory
-I, [2017-05-03T20:01:39.226730 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_MESSAGES to default locale: No such file or directory
-I, [2017-05-03T20:01:39.227586 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_ALL to default locale: No such file or directory
-I, [2017-05-03T20:01:47.359737 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libxml2:amd64.
-I, [2017-05-03T20:01:47.371686 #4632]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17143 files and directories currently installed.)
-I, [2017-05-03T20:01:47.373355 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libxml2_2.9.1+dfsg1-3ubuntu4.9_amd64.deb ...
-I, [2017-05-03T20:01:47.377459 #4632]  INFO -- default-ubuntu-1404: Unpacking libxml2:amd64 (2.9.1+dfsg1-3ubuntu4.9) ...
-I, [2017-05-03T20:01:47.454446 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package sgml-base.
-I, [2017-05-03T20:01:47.456106 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../sgml-base_1.26+nmu4ubuntu1_all.deb ...
-I, [2017-05-03T20:01:47.461077 #4632]  INFO -- default-ubuntu-1404: Unpacking sgml-base (1.26+nmu4ubuntu1) ...
-I, [2017-05-03T20:01:47.486893 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package xml-core.
-I, [2017-05-03T20:01:47.489178 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../xml-core_0.13+nmu2_all.deb ...
-I, [2017-05-03T20:01:47.493519 #4632]  INFO -- default-ubuntu-1404: Unpacking xml-core (0.13+nmu2) ...
-I, [2017-05-03T20:01:47.516493 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package augeas-lenses.
-I, [2017-05-03T20:01:47.518346 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../augeas-lenses_1.2.0-0ubuntu1.2_all.deb ...
-I, [2017-05-03T20:01:47.521654 #4632]  INFO -- default-ubuntu-1404: Unpacking augeas-lenses (1.2.0-0ubuntu1.2) ...
-I, [2017-05-03T20:01:47.606104 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package debconf-utils.
-I, [2017-05-03T20:01:47.607877 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../debconf-utils_1.5.51ubuntu2_all.deb ...
-I, [2017-05-03T20:01:47.610385 #4632]  INFO -- default-ubuntu-1404: Unpacking debconf-utils (1.5.51ubuntu2) ...
-I, [2017-05-03T20:01:47.640263 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libaugeas0.
-I, [2017-05-03T20:01:47.642258 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libaugeas0_1.2.0-0ubuntu1.2_amd64.deb ...
-I, [2017-05-03T20:01:47.645088 #4632]  INFO -- default-ubuntu-1404: Unpacking libaugeas0 (1.2.0-0ubuntu1.2) ...
-I, [2017-05-03T20:01:47.678042 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package ruby-augeas.
-I, [2017-05-03T20:01:47.679913 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../ruby-augeas_0.5.0-2_amd64.deb ...
-I, [2017-05-03T20:01:47.682866 #4632]  INFO -- default-ubuntu-1404: Unpacking ruby-augeas (0.5.0-2) ...
-I, [2017-05-03T20:01:47.700011 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package libaugeas-ruby.
-I, [2017-05-03T20:01:47.701914 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../libaugeas-ruby_0.5.0-2_all.deb ...
-I, [2017-05-03T20:01:47.704589 #4632]  INFO -- default-ubuntu-1404: Unpacking libaugeas-ruby (0.5.0-2) ...
-I, [2017-05-03T20:01:47.723457 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package ruby-shadow.
-I, [2017-05-03T20:01:47.724763 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../ruby-shadow_2.2.0-1_amd64.deb ...
-I, [2017-05-03T20:01:47.727943 #4632]  INFO -- default-ubuntu-1404: Unpacking ruby-shadow (2.2.0-1) ...
-I, [2017-05-03T20:01:47.746879 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package ruby-json.
-I, [2017-05-03T20:01:47.749331 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../ruby-json_1.8.0-1build1_amd64.deb ...
-I, [2017-05-03T20:01:47.753298 #4632]  INFO -- default-ubuntu-1404: Unpacking ruby-json (1.8.0-1build1) ...
-I, [2017-05-03T20:01:47.786727 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package hiera.
-I, [2017-05-03T20:01:47.788785 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../hiera_1.3.4-1puppetlabs1_all.deb ...
-I, [2017-05-03T20:01:47.795842 #4632]  INFO -- default-ubuntu-1404: Unpacking hiera (1.3.4-1puppetlabs1) ...
-I, [2017-05-03T20:01:47.826920 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package puppet-common.
-I, [2017-05-03T20:01:47.829377 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../puppet-common_3.8.7-1puppetlabs1_all.deb ...
-I, [2017-05-03T20:01:47.833912 #4632]  INFO -- default-ubuntu-1404: Unpacking puppet-common (3.8.7-1puppetlabs1) ...
-I, [2017-05-03T20:01:48.655305 #4632]  INFO -- default-ubuntu-1404: Setting up libxml2:amd64 (2.9.1+dfsg1-3ubuntu4.9) ...
-I, [2017-05-03T20:01:48.668011 #4632]  INFO -- default-ubuntu-1404: Setting up sgml-base (1.26+nmu4ubuntu1) ...
-I, [2017-05-03T20:01:48.696936 #4632]  INFO -- default-ubuntu-1404: Setting up xml-core (0.13+nmu2) ...
-I, [2017-05-03T20:01:48.840009 #4632]  INFO -- default-ubuntu-1404: Setting up augeas-lenses (1.2.0-0ubuntu1.2) ...
-I, [2017-05-03T20:01:48.846147 #4632]  INFO -- default-ubuntu-1404: Setting up debconf-utils (1.5.51ubuntu2) ...
-I, [2017-05-03T20:01:48.851849 #4632]  INFO -- default-ubuntu-1404: Setting up libaugeas0 (1.2.0-0ubuntu1.2) ...
-I, [2017-05-03T20:01:48.861688 #4632]  INFO -- default-ubuntu-1404: Setting up ruby-augeas (0.5.0-2) ...
-I, [2017-05-03T20:01:48.867614 #4632]  INFO -- default-ubuntu-1404: Setting up libaugeas-ruby (0.5.0-2) ...
-I, [2017-05-03T20:01:48.873479 #4632]  INFO -- default-ubuntu-1404: Setting up ruby-shadow (2.2.0-1) ...
-I, [2017-05-03T20:01:48.879850 #4632]  INFO -- default-ubuntu-1404: Setting up ruby-json (1.8.0-1build1) ...
-I, [2017-05-03T20:01:48.887496 #4632]  INFO -- default-ubuntu-1404: Setting up hiera (1.3.4-1puppetlabs1) ...
-I, [2017-05-03T20:01:48.895885 #4632]  INFO -- default-ubuntu-1404: Setting up puppet-common (3.8.7-1puppetlabs1) ...
-I, [2017-05-03T20:01:49.010686 #4632]  INFO -- default-ubuntu-1404: Processing triggers for libc-bin (2.19-0ubuntu6.11) ...
-I, [2017-05-03T20:01:49.020435 #4632]  INFO -- default-ubuntu-1404: Processing triggers for sgml-base (1.26+nmu4ubuntu1) ...
-I, [2017-05-03T20:01:51.485348 #4632]  INFO -- default-ubuntu-1404: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 13%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... Done
-I, [2017-05-03T20:01:52.029180 #4632]  INFO -- default-ubuntu-1404: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-I, [2017-05-03T20:01:52.030947 #4632]  INFO -- default-ubuntu-1404: Reading state information... 0%Reading state information... 1%Reading state information... Done
-I, [2017-05-03T20:01:52.117255 #4632]  INFO -- default-ubuntu-1404: Suggested packages:
-I, [2017-05-03T20:01:52.118018 #4632]  INFO -- default-ubuntu-1404:   puppet-el vim-puppet
-I, [2017-05-03T20:01:52.119703 #4632]  INFO -- default-ubuntu-1404: The following NEW packages will be installed:
-I, [2017-05-03T20:01:52.120871 #4632]  INFO -- default-ubuntu-1404:   puppet
-I, [2017-05-03T20:01:52.125689 #4632]  INFO -- default-ubuntu-1404: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-I, [2017-05-03T20:01:52.558739 #4632]  INFO -- default-ubuntu-1404: Need to get 9308 B of archives.
-I, [2017-05-03T20:01:52.559128 #4632]  INFO -- default-ubuntu-1404: After this operation, 72.7 kB of additional disk space will be used.
-I, [2017-05-03T20:01:53.090754 #4632]  INFO -- default-ubuntu-1404: 0% [Working]            Get:1 http://apt.puppetlabs.com/ trusty/main puppet all 3.8.7-1puppetlabs1 [9308 B]
-I, [2017-05-03T20:01:53.099972 #4632]  INFO -- default-ubuntu-1404:             0% [1 puppet 0 B/9308 B 0%]                           100% [Working]              Fetched 9308 B in 0s (86.4 kB/s)
-I, [2017-05-03T20:01:54.054680 #4632]  INFO -- default-ubuntu-1404: perl: warning: Setting locale failed.
-I, [2017-05-03T20:01:54.055555 #4632]  INFO -- default-ubuntu-1404: perl: warning: Please check that your locale settings:
-I, [2017-05-03T20:01:54.056419 #4632]  INFO -- default-ubuntu-1404: 	LANGUAGE = (unset),
-I, [2017-05-03T20:01:54.057157 #4632]  INFO -- default-ubuntu-1404: 	LC_ALL = (unset),
-I, [2017-05-03T20:01:54.057599 #4632]  INFO -- default-ubuntu-1404: 	LANG = "en_US.UTF-8"
-I, [2017-05-03T20:01:54.058481 #4632]  INFO -- default-ubuntu-1404:     are supported and installed on your system.
-I, [2017-05-03T20:01:54.059856 #4632]  INFO -- default-ubuntu-1404: perl: warning: Falling back to the standard locale ("C").
-I, [2017-05-03T20:01:54.090149 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_CTYPE to default locale: No such file or directory
-I, [2017-05-03T20:01:54.091257 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_MESSAGES to default locale: No such file or directory
-I, [2017-05-03T20:01:54.092904 #4632]  INFO -- default-ubuntu-1404: locale: Cannot set LC_ALL to default locale: No such file or directory
-I, [2017-05-03T20:01:57.553986 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package puppet.
-I, [2017-05-03T20:01:57.566732 #4632]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 19374 files and directories currently installed.)
-I, [2017-05-03T20:01:57.568808 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../puppet_3.8.7-1puppetlabs1_all.deb ...
-I, [2017-05-03T20:01:57.580829 #4632]  INFO -- default-ubuntu-1404: Unpacking puppet (3.8.7-1puppetlabs1) ...
-I, [2017-05-03T20:01:57.599154 #4632]  INFO -- default-ubuntu-1404: Processing triggers for ureadahead (0.100.0-16) ...
-I, [2017-05-03T20:01:58.058878 #4632]  INFO -- default-ubuntu-1404: Setting up puppet (3.8.7-1puppetlabs1) ...
-I, [2017-05-03T20:01:58.116960 #4632]  INFO -- default-ubuntu-1404: invoke-rc.d: policy-rc.d denied execution of start.
-I, [2017-05-03T20:01:58.120051 #4632]  INFO -- default-ubuntu-1404: Processing triggers for ureadahead (0.100.0-16) ...
-I, [2017-05-03T20:01:58.575088 #4632]  INFO -- default-ubuntu-1404: -----> Installing Chef Omnibus to install busser to run tests
-I, [2017-05-03T20:01:58.576564 #4632]  INFO -- default-ubuntu-1404: downloading https://www.getchef.com/chef/install.sh
-I, [2017-05-03T20:01:58.577224 #4632]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh
-I, [2017-05-03T20:01:58.578176 #4632]  INFO -- default-ubuntu-1404: trying wget...
-I, [2017-05-03T20:01:58.729427 #4632]  INFO -- default-ubuntu-1404: trying curl...
-I, [2017-05-03T20:01:58.772521 #4632]  INFO -- default-ubuntu-1404:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-I, [2017-05-03T20:01:58.775808 #4632]  INFO -- default-ubuntu-1404:                           Dload  Upload   Total   Spent    Left  Speed
-I, [2017-05-03T20:01:58.913416 #4632]  INFO -- default-ubuntu-1404:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-I, [2017-05-03T20:01:58.916503 #4632]  INFO -- default-ubuntu-1404: curl: (51) SSL: no alternative certificate subject name matches target host name 'www.getchef.com'
-I, [2017-05-03T20:01:58.930972 #4632]  INFO -- default-ubuntu-1404: trying perl...
-I, [2017-05-03T20:01:58.937557 #4632]  INFO -- default-ubuntu-1404: perl: warning: Setting locale failed.
-I, [2017-05-03T20:01:58.944367 #4632]  INFO -- default-ubuntu-1404: perl: warning: Please check that your locale settings:
-I, [2017-05-03T20:01:58.947863 #4632]  INFO -- default-ubuntu-1404: 	LANGUAGE = (unset),
-I, [2017-05-03T20:01:58.956341 #4632]  INFO -- default-ubuntu-1404: 	LC_ALL = (unset),
-I, [2017-05-03T20:01:58.962474 #4632]  INFO -- default-ubuntu-1404: 	LANG = "en_US.UTF-8"
-I, [2017-05-03T20:01:58.966667 #4632]  INFO -- default-ubuntu-1404:     are supported and installed on your system.
-I, [2017-05-03T20:01:58.969061 #4632]  INFO -- default-ubuntu-1404: perl: warning: Falling back to the standard locale ("C").
-I, [2017-05-03T20:01:58.972895 #4632]  INFO -- default-ubuntu-1404: Can't locate LWP/Simple.pm in @INC (you may need to install the LWP::Simple module) (@INC contains: /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at -e line 1.
-I, [2017-05-03T20:01:58.975520 #4632]  INFO -- default-ubuntu-1404: BEGIN failed--compilation aborted at -e line 1.
-I, [2017-05-03T20:01:58.978895 #4632]  INFO -- default-ubuntu-1404: trying python...
-I, [2017-05-03T20:01:59.324252 #4632]  INFO -- default-ubuntu-1404: ubuntu 14.04 x86_64
-I, [2017-05-03T20:01:59.326769 #4632]  INFO -- default-ubuntu-1404: Getting information for chef stable  for ubuntu...
-I, [2017-05-03T20:01:59.330507 #4632]  INFO -- default-ubuntu-1404: downloading https://omnitruck-direct.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=14.04&m=x86_64
-I, [2017-05-03T20:01:59.331056 #4632]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.576/metadata.txt
-I, [2017-05-03T20:01:59.333162 #4632]  INFO -- default-ubuntu-1404: trying wget...
-I, [2017-05-03T20:02:00.195588 #4632]  INFO -- default-ubuntu-1404: sha1	da845676ff2e17b3049ca6e52541389318183f89
-I, [2017-05-03T20:02:00.202396 #4632]  INFO -- default-ubuntu-1404: sha256	650e80ad44584ca48716752d411989ab155845af4af7a50c530155d9718843eb
-I, [2017-05-03T20:02:00.210047 #4632]  INFO -- default-ubuntu-1404: url	https://packages.chef.io/files/stable/chef/13.0.118/ubuntu/14.04/chef_13.0.118-1_amd64.deb
-I, [2017-05-03T20:02:00.217457 #4632]  INFO -- default-ubuntu-1404: version	13.0.118
-I, [2017-05-03T20:02:00.221584 #4632]  INFO -- default-ubuntu-1404: downloaded metadata file looks valid...
-I, [2017-05-03T20:02:00.247531 #4632]  INFO -- default-ubuntu-1404: downloading https://packages.chef.io/files/stable/chef/13.0.118/ubuntu/14.04/chef_13.0.118-1_amd64.deb
-I, [2017-05-03T20:02:00.248639 #4632]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.576/chef_13.0.118-1_amd64.deb
-I, [2017-05-03T20:02:00.256342 #4632]  INFO -- default-ubuntu-1404: trying wget...
-I, [2017-05-03T20:02:09.234989 #4632]  INFO -- default-ubuntu-1404: Comparing checksum with sha256sum...
-I, [2017-05-03T20:02:09.528546 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:09.529701 #4632]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2017-05-03T20:02:09.530149 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:09.530332 #4632]  INFO -- default-ubuntu-1404: You are installing an omnibus package without a version pin.  If you are installing
-I, [2017-05-03T20:02:09.530799 #4632]  INFO -- default-ubuntu-1404: on production servers via an automated process this is DANGEROUS and you will
-I, [2017-05-03T20:02:09.531316 #4632]  INFO -- default-ubuntu-1404: be upgraded without warning on new releases, even to new major releases.
-I, [2017-05-03T20:02:09.531801 #4632]  INFO -- default-ubuntu-1404: Letting the version float is only appropriate in desktop, test, development or
-I, [2017-05-03T20:02:09.532301 #4632]  INFO -- default-ubuntu-1404: CI/CD environments.
-I, [2017-05-03T20:02:09.532802 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:09.533583 #4632]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2017-05-03T20:02:09.533797 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:09.534301 #4632]  INFO -- default-ubuntu-1404: Installing chef 
-I, [2017-05-03T20:02:09.534786 #4632]  INFO -- default-ubuntu-1404: installing with dpkg...
-I, [2017-05-03T20:02:09.561966 #4632]  INFO -- default-ubuntu-1404: Selecting previously unselected package chef.
-I, [2017-05-03T20:02:09.576008 #4632]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 19380 files and directories currently installed.)
-I, [2017-05-03T20:02:09.577876 #4632]  INFO -- default-ubuntu-1404: Preparing to unpack .../chef_13.0.118-1_amd64.deb ...
-I, [2017-05-03T20:02:09.580341 #4632]  INFO -- default-ubuntu-1404: Unpacking chef (13.0.118-1) ...
-I, [2017-05-03T20:02:13.903240 #4632]  INFO -- default-ubuntu-1404: Setting up chef (13.0.118-1) ...
-I, [2017-05-03T20:02:14.016520 #4632]  INFO -- default-ubuntu-1404: Thank you for installing Chef!
-I, [2017-05-03T20:02:14.059068 #4632]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
-I, [2017-05-03T20:02:14.126740 #4632]  INFO -- default-ubuntu-1404: Going to invoke puppet apply with:           
-          
-            export MANIFESTDIR='/tmp/kitchen/manifests'; sudo -E puppet apply /tmp/kitchen/manifests/site.pp --modulepath=/tmp/kitchen/modules --fileserverconfig=/tmp/kitchen/fileserver.conf           
-
-I, [2017-05-03T20:02:14.744033 #4632]  INFO -- default-ubuntu-1404: [1;31mWarning: Setting templatedir is deprecated. See http://links.puppetlabs.com/env-settings-deprecations
-I, [2017-05-03T20:02:14.744877 #4632]  INFO -- default-ubuntu-1404:    (at /usr/lib/ruby/vendor_ruby/puppet/settings.rb:1139:in `issue_deprecation_warning')[0m
-I, [2017-05-03T20:02:15.377168 #4632]  INFO -- default-ubuntu-1404: [mNotice: Compiled catalog for fcd3b23a13b9 in environment production in 0.12 seconds[0m
-I, [2017-05-03T20:02:18.230899 #4632]  INFO -- default-ubuntu-1404: [1;31mError: Execution of '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install httpd' returned 100: Reading package lists...
-I, [2017-05-03T20:02:18.231647 #4632]  INFO -- default-ubuntu-1404: Building dependency tree...
-I, [2017-05-03T20:02:18.232101 #4632]  INFO -- default-ubuntu-1404: Reading state information...
-I, [2017-05-03T20:02:18.232467 #4632]  INFO -- default-ubuntu-1404: Package httpd is a virtual package provided by:
-I, [2017-05-03T20:02:18.233151 #4632]  INFO -- default-ubuntu-1404:   nginx-naxsi 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.233782 #4632]  INFO -- default-ubuntu-1404:   nginx-light 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.234269 #4632]  INFO -- default-ubuntu-1404:   nginx-full 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.235314 #4632]  INFO -- default-ubuntu-1404:   nginx-extras 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.236106 #4632]  INFO -- default-ubuntu-1404:   bozohttpd 20111118-1+deb7u1build0.14.04.1
-I, [2017-05-03T20:02:18.237107 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-itk 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.238038 #4632]  INFO -- default-ubuntu-1404:   nginx-core 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.238981 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-worker 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.240531 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-prefork 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.242689 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-event 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.243098 #4632]  INFO -- default-ubuntu-1404:   apache2-bin 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.243488 #4632]  INFO -- default-ubuntu-1404:   yaws 1.98-2
-I, [2017-05-03T20:02:18.244605 #4632]  INFO -- default-ubuntu-1404:   webfs 1.21+ds1-9
-I, [2017-05-03T20:02:18.245197 #4632]  INFO -- default-ubuntu-1404:   tntnet 2.2.1-1
-I, [2017-05-03T20:02:18.245596 #4632]  INFO -- default-ubuntu-1404:   ocsigenserver 2.2.0-3
-I, [2017-05-03T20:02:18.245993 #4632]  INFO -- default-ubuntu-1404:   mini-httpd 1.19-9.3
-I, [2017-05-03T20:02:18.246377 #4632]  INFO -- default-ubuntu-1404:   micro-httpd 20051212-15
-I, [2017-05-03T20:02:18.246790 #4632]  INFO -- default-ubuntu-1404:   lighttpd 1.4.33-1+nmu2ubuntu2
-I, [2017-05-03T20:02:18.247356 #4632]  INFO -- default-ubuntu-1404:   ebhttpd 1:1.0.dfsg.1-4.3
-I, [2017-05-03T20:02:18.247747 #4632]  INFO -- default-ubuntu-1404:   boa 0.94.14rc21-5
-I, [2017-05-03T20:02:18.248129 #4632]  INFO -- default-ubuntu-1404:   aolserver4-daemon 4.5.1-16
-I, [2017-05-03T20:02:18.248472 #4632]  INFO -- default-ubuntu-1404:   aolserver4-core 4.5.1-16
-I, [2017-05-03T20:02:18.248710 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:18.249146 #4632]  INFO -- default-ubuntu-1404: E: Package 'httpd' has no installation candidate[0m
-I, [2017-05-03T20:02:18.249561 #4632]  INFO -- default-ubuntu-1404: [1;31mError: /Stage[main]/Apache::Install/Package[httpd]/ensure: change from purged to present failed: Execution of '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install httpd' returned 100: Reading package lists...
-I, [2017-05-03T20:02:18.250166 #4632]  INFO -- default-ubuntu-1404: Building dependency tree...
-I, [2017-05-03T20:02:18.251281 #4632]  INFO -- default-ubuntu-1404: Reading state information...
-I, [2017-05-03T20:02:18.251913 #4632]  INFO -- default-ubuntu-1404: Package httpd is a virtual package provided by:
-I, [2017-05-03T20:02:18.252511 #4632]  INFO -- default-ubuntu-1404:   nginx-naxsi 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.253080 #4632]  INFO -- default-ubuntu-1404:   nginx-light 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.253552 #4632]  INFO -- default-ubuntu-1404:   nginx-full 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.254032 #4632]  INFO -- default-ubuntu-1404:   nginx-extras 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.254538 #4632]  INFO -- default-ubuntu-1404:   bozohttpd 20111118-1+deb7u1build0.14.04.1
-I, [2017-05-03T20:02:18.255321 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-itk 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.255728 #4632]  INFO -- default-ubuntu-1404:   nginx-core 1.4.6-1ubuntu3.7
-I, [2017-05-03T20:02:18.256098 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-worker 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.256569 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-prefork 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.257075 #4632]  INFO -- default-ubuntu-1404:   apache2-mpm-event 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.257533 #4632]  INFO -- default-ubuntu-1404:   apache2-bin 2.4.7-1ubuntu4.13
-I, [2017-05-03T20:02:18.257669 #4632]  INFO -- default-ubuntu-1404:   yaws 1.98-2
-I, [2017-05-03T20:02:18.257767 #4632]  INFO -- default-ubuntu-1404:   webfs 1.21+ds1-9
-I, [2017-05-03T20:02:18.257849 #4632]  INFO -- default-ubuntu-1404:   tntnet 2.2.1-1
-I, [2017-05-03T20:02:18.257930 #4632]  INFO -- default-ubuntu-1404:   ocsigenserver 2.2.0-3
-I, [2017-05-03T20:02:18.258025 #4632]  INFO -- default-ubuntu-1404:   mini-httpd 1.19-9.3
-I, [2017-05-03T20:02:18.258103 #4632]  INFO -- default-ubuntu-1404:   micro-httpd 20051212-15
-I, [2017-05-03T20:02:18.258168 #4632]  INFO -- default-ubuntu-1404:   lighttpd 1.4.33-1+nmu2ubuntu2
-I, [2017-05-03T20:02:18.258268 #4632]  INFO -- default-ubuntu-1404:   ebhttpd 1:1.0.dfsg.1-4.3
-I, [2017-05-03T20:02:18.258384 #4632]  INFO -- default-ubuntu-1404:   boa 0.94.14rc21-5
-I, [2017-05-03T20:02:18.259192 #4632]  INFO -- default-ubuntu-1404:   aolserver4-daemon 4.5.1-16
-I, [2017-05-03T20:02:18.259295 #4632]  INFO -- default-ubuntu-1404:   aolserver4-core 4.5.1-16
-I, [2017-05-03T20:02:18.259416 #4632]  INFO -- default-ubuntu-1404: 
-I, [2017-05-03T20:02:18.259624 #4632]  INFO -- default-ubuntu-1404: E: Package 'httpd' has no installation candidate[0m
-I, [2017-05-03T20:02:18.271405 #4632]  INFO -- default-ubuntu-1404: [mNotice: Finished catalog run in 2.72 seconds[0m
-I, [2017-05-03T20:02:18.319764 #4632]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (1m32.00s).
